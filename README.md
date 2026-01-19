@@ -12,5 +12,5 @@ Additionally, we had to document what our test inputs and expected outputs are, 
 
 **\#\# Repository Contents**  
 testCases.cpp | Test cases implemented in C++ style pseudocode  
-[analysis.md](http://analysis.md)pdf | Test case analysis table and rationale  
+analysis.md | Test case analysis table and rationale  
 devilsAdvocate.md | This aligns with part 3  
