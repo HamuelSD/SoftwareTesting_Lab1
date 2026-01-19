@@ -1,4 +1,9 @@
   
 **\#\# Part 2: Analyze Tests:**
 
-| Test Case | Input | Expected Output | What the Test Shows | |-----------|-------|-----------------|---------------------| | Case 1 | 2800 | True | This tests requirement 1: that numbers divisible by 400 are correctly flagged as leap years. | | Case 2 | 1900 | False | This tests requirement 2: that if the integer is not divisible by 400, but IS divisible by 100, then it is not a leap year. This order is important, as 1900 IS divisible by 4, but is not a leap year, and if we checked divisibility by 4 first, it might get incorrectly flagged as a leap year. | | Case 3 | 2024 | True | This tests requirement 3: that if the integer is evenly divisible by 4, but not evenly divisible by 100, then it is in fact a leap year. | | Case 4 | 2026 | False | This tests requirement 4: if the number is not evenly divisible by 400, 100, or 4, then it is not a leap year. |  
+| Test Case | Input | Expected Output | What the Test Shows |
+|-----------|-------|-----------------|---------------------|
+| Case 1 | 2800 | True | This tests requirement 1: that numbers divisible by 400 are correctly flagged as leap years. |
+| Case 2 | 1900 | False | This tests requirement 2: that if the integer is not divisible by 400, but IS divisible by 100, then it is not a leap year. This order is important, as 1900 IS divisible by 4, but is not a leap year, and if we checked divisibility by 4 first, it might get incorrectly flagged as a leap year. |
+| Case 3 | 2024 | True | This tests requirement 3: that if the integer is evenly divisible by 4, but not evenly divisible by 100, then it is in fact a leap year. |
+| Case 4 | 2026 | False | This tests requirement 4: if the number is not evenly divisible by 400, 100, or 4, then it is not a leap year. |  
