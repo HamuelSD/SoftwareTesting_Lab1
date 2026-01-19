@@ -1,5 +1,6 @@
 // Samuel Harvey
 // Software Testing Lab 1
+// This is just pseudocode to give an idea on how to conduct the tests as described
 // 1/18/26
 
 // Test Case 1 - Divisible by 400 - Leap Year
